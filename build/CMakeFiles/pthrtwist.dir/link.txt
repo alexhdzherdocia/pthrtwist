@@ -1,1 +1,0 @@
-/usr/bin/gcc  -O3 -DNDEBUG    CMakeFiles/pthrtwist.dir/main.c.o  -o pthrtwist -rdynamic -lpthread -lrt 
