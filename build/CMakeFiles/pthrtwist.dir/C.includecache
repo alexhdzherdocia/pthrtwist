@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rhesus/pthrtwist/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+signal.h
+-
+pthread.h
+-
+sys/time.h
+-
+time.h
+-
+execinfo.h
+-
+sys/mman.h
+-
+
